@@ -1,7 +1,7 @@
 # Hi, I'm Tushar Verma  (amrevrahsut)
 ### Aspiring SOC Analyst & Digital Forensics Researcher | BCA Cyber Security
 
-I am a cybersecurity practitioner focused on threat detection, log analysis, and incident investigation. I am currently seeking an internship to apply my hands-on experience with SIEM tools and forensic workflows.
+I am a cybersecurity practitioner focused on threat detection, log analysis, and incident investigation. I am currently seeking an internship or entry level job to apply my hands-on experience with SIEM tools and forensic workflows.
 
 ---
 
