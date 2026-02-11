@@ -1,89 +1,44 @@
-# SOC Home Lab – Network Reconnaissance Detection
+# Hi, I'm Tushar Verma  (amrevrahsut)
+### Aspiring SOC Analyst & Digital Forensics Researcher | BCA Cyber Security
 
-## Overview
-This project demonstrates a Security Operations Center (SOC) detection workflow by simulating network reconnaissance activity from a Kali Linux machine and analyzing how it is detected and blocked by native Windows security controls on a Windows 10 system.
-
----
-
-## Lab Environment
-
-### Attacker System
-- Operating System: Kali Linux (Rolling)
-- Role: Internal attacker
-- Tools Used: Nmap, Ping
-
-### Target System
-- Operating System: Windows 10 x64
-- Role: Defender
-- Security Controls:
-  - Windows Defender Firewall
-  - Windows Filtering Platform
-  - Advanced Audit Policy Configuration
+I am a cybersecurity practitioner focused on threat detection, log analysis, and incident investigation. I am currently seeking an internship in **Mumbai** to apply my hands-on experience with SIEM tools and forensic workflows.
 
 ---
 
-## Attack Scenario
-The attacker system performed network reconnaissance including:
-- ICMP reachability checks
-- TCP SYN scanning
-- Service enumeration
-- OS detection attempts
-
-These actions represent early-stage attacker behavior and were blocked by the Windows Defender Firewall.
+##  Technical Toolkit
+* **SIEM & Monitoring:** Wazuh, Splunk, Snort, Wireshark.
+* **Forensics & Logs:** Windows Event Logs (ID 5157, 4625, etc.), Sysmon, Autopsy.
+* **Security Fundamentals:** Incident Triage, Cyber Kill Chain, Network Reconnaissance.
+* **Platforms:** Linux (Kali, Ubuntu), Windows (Defender/WFP), TryHackMe.
 
 ---
 
-## Evidence Collected
-
-### Attacker-side (Kali Linux)
-- Nmap scan output
-- Ping and TCP probe activity
-- Reconnaissance logs captured during the attack phase
-
-### Defender-side (Windows 10)
-- Windows Defender Firewall logs
-- Windows Security Event Viewer logs
-- Event ID 5157 (Blocked connection – Windows Filtering Platform)
+##  Featured Labs & Projects
+* **[Network Reconnaissance Detection](link-to-your-recon-repo)**: Analyzing Nmap scans via Windows Filtering Platform & Event Viewer.
+* **[Wazuh + Splunk Integration](link-to-your-wazuh-repo)**: Building an automated telemetry pipeline for SOC monitoring.
+* **[TATA Virtual Internship](https://www.theforage.com/)**: Security governance and IAM simulation.
 
 ---
 
-## Detection Analysis
-From a SOC analyst perspective, the observed activity is classified as **network reconnaissance**.
-
-Key indicators:
-- Multiple inbound TCP connection attempts
-- Single source targeting multiple ports in a short time window
-- Connections blocked before session establishment
-
-Windows Defender Firewall successfully blocked all unsolicited inbound traffic. Event ID 5157 confirms enforcement at the Windows Filtering Platform layer, indicating effective host-based protection.
+##  Certifications
+* **SOC L1** – TryHackMe
+* **Certified Ethical Hacker (CEH)** – EC-Council
+* **Certified Security Specialist** – EC-Council
+* **Google Cybersecurity Professional Certificate**
+* **Ethical Hacking** – Internshala
 
 ---
 
-## MITRE ATT&CK Mapping
-- **Tactic:** Reconnaissance (TA0043)
-- **Technique:** Active Scanning
+##  Availability
+* **Location:** Ready to relocate to **Mumbai** for professional opportunities.
+* **Date:** Available to join within one week after **February 21st, 2026**.
 
 ---
 
-## SOC Skills Demonstrated
-- Network reconnaissance detection
-- Firewall log analysis
-- Windows Event Viewer investigation
-- Audit policy configuration
-- Attacker–defender log correlation
-- Log sanitization and documentation
-- SOC-style reporting
+## 📫 Connect with me
+* **LinkedIn:** [linkedin.com/in/tusharverma043](https://www.linkedin.com/in/tusharverma043)
+* **TryHackMe:** [amrevrahsut043](https://tryhackme.com/p/amrevrahsut043)
+* **Email:** [tusharvermaofficial043@gmail.com](mailto:tusharvermaofficial043@gmail.com)
 
 ---
-
-## Future Enhancements
-- Forward logs to a SIEM platform
-- Deploy Sysmon for deeper visibility
-- Simulate authentication attacks
-- Create detection rules and alerts
-- Expand to multi-stage attack scenarios
-
----
-
-## Disclaimer
-This lab was conducted strictly for educational purposes within a controlled virtual environment. No production systems or real networks were targeted.
+*"Documenting every log, investigating every alert."*
