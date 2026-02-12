@@ -15,7 +15,7 @@ I am a cybersecurity practitioner focused on threat detection, log analysis, and
 
 ##  Featured Labs & Projects
 * **[Network Reconnaissance Detection](https://github.com/amrevrahsut/amrevrahsut-soc-home-lab-network-recon)**: Analyzing Nmap scans via Windows Filtering Platform & Event Viewer.
-* **[Active Attack and Detection Lab ](link-to-your-wazuh-repo)**: Simulated an attack via kali and ivestigated defending Windows machine for Anamolies.
+* **[Active-Attack-Investigation-Lab](https://github.com/amrevrahsut/Active-Attack-Investigation-Lab)**: Simulated an attack via kali and ivestigated defending Windows machine for Anamolies.
 * **[TATA Virtual Internship](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_cycF2N4SrzpFYdoYN_1752309951012_completion_certificate.pdf)**: Security governance and IAM simulation.
 
 ---
